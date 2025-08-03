@@ -40,7 +40,7 @@ com.pipeline
 ### Comandos:
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 > También se puede ejecutar desde la clase `ProductPipelineApplication.java`.
@@ -71,16 +71,6 @@ com.pipeline
   "generatedCode": "e8a9f3d2"
 }
 ```
-
----
-
-## 🏗️ Posibles mejoras
-
-- Persistencia en base de datos con JPA/Hibernate.
-- Validaciones asíncronas o externas.
-- Manejo de excepciones más detallado con `@ControllerAdvice`.
-- Test unitarios para cada paso del pipeline.
-
 ---
 
 ## 🧑‍💻 Autor
